@@ -12,7 +12,8 @@ app.set("views", "./views"); // Rename views a folder called views
 var MongoClient = require('mongodb').MongoClient; // Require mongodb
 // var url = "mongodb://localhost:27017/mydb"; // Set a URL for my database
 // var url = 'mongodb://heroku_zk1nncx0:38j5p68sm4rnjvpq0a5ss8hcde@ds233228.mlab.com:33228/heroku_zk1nncx0';
-var url = 'mongolab-defined-13765';
+// var url = 'mongolab-defined-13765';
+var url = 'mongodb://heroku_vxm5nxzm:2ji7it3rm2rur5vg572isc6uhl@ds233208.mlab.com:33208/heroku_vxm5nxzm';
 
 
 
