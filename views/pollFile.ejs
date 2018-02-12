@@ -1,0 +1,81 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.6/interact.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <script src="/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js" integrity="sha256-eetZG6Bzom5c8rWDuJiky3M1sJ3IGwNd/FIl/nmyMh0=" crossorigin="anonymous"></script>
+</head>
+
+
+
+
+<body class="body-background">
+
+    
+    
+    <!-- Header section start -->
+    <div class="banner">
+        <h>Voting App</h>
+        <p>Vote for your favorite <%= pageObject.pollType.header %> !</p>
+    </div>
+    
+    
+    
+    
+    <!-- New buttons and graph -->
+    <div class="buttons text-center">
+
+
+        
+        
+        <div id="option-1" class="option btn btn-primary" data-count="<%= pageObject.pollTally.selectionCount1 %>">
+            <%= pageObject.pollOption.selectionName1 %> 
+        </div>
+        
+        
+        
+
+        <div id="option-2" class="option btn btn-primary" data-count="<%= pageObject.pollTally.selectionCount2 %>">
+            <%= pageObject.pollOption.selectionName2 %> 
+        </div>
+
+        
+        
+        
+        <div id="option-3" class="option btn btn-primary" data-count="<%= pageObject.pollTally.selectionCount3 %>">
+            <%= pageObject.pollOption.selectionName3 %> 
+        </div>
+        
+        
+        
+        
+        <div id="option-4" class="option btn btn-primary" data-count="<%= pageObject.pollTally.selectionCount4 %>">
+            <%= pageObject.pollOption.selectionName4 %> 
+        </div>
+
+        
+        
+
+    </div>
+
+    
+    
+    <!-- New chart -->
+    <canvas id="myChart"></canvas>
+    
+    
+    
+    <!-- Footer section -->
+    <div class="footer">
+        <a href="/" class="link-text">Homepage</a>
+        <a href="/poll/operatingsystems" class="link-text">Operating Systems Poll</a>
+    </div>
+
+
+    
+    
+</body>

@@ -1,0 +1,31 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "Voting application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardse08/voting-app-v2.git"
+  },
+  "keywords": [
+    "voting-app",
+    "voting",
+    "app",
+    "application"
+  ],
+  "author": "Eric Richards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardse08/voting-app-v2/issues"
+  },
+  "homepage": "https://github.com/richardse08/voting-app-v2#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "mongodb": "^2.2.33"
+  }
+}

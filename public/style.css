@@ -1,0 +1,84 @@
+.body-background {
+    background-color: slategray;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/**********************    MAIN    **********************/
+.banner {
+    background-color: bisque;
+    border: solid;
+    border-radius: 15px 15px 0px 0px;
+    padding: 25px;
+    color: slategray;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.option {
+    width: 200px;
+    margin: 5px;
+}
+
+.graph {
+    width: 300px;
+}
+
+.link-text {
+    color: slategray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: block;
+    vertical-align: middle;
+}
+
+.footer {
+    height: 70px;
+    background-color: bisque;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.display {
+	border: solid;
+	border-radius: 5%;
+	border-width: 1px;
+	width: 100px;
+	height: 60px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+.buttons {
+    margin: auto;
+}
+
+#myChart {
+	max-width: 800px;
+	margin: auto;
+}
+
+
+
+
+
+
