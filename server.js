@@ -12,7 +12,7 @@ var MongoClient = require('mongodb').MongoClient; // Require mongodb
 
 var port = process.env.PORT || 3000; // Set the port
 // var url = 'mongodb://heroku_vxm5nxzm:2ji7it3rm2rur5vg572isc6uhl@ds233208.mlab.com:33208/heroku_vxm5nxzm';
-var url = 'mongodb://richardse1988:Integra88@ds233228.mlab.com:33228/database1';
+var url = 'mongodb://voting-username:voting-password1@ds233228.mlab.com:33228/database1';
 
 
 
